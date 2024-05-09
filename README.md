@@ -2,15 +2,10 @@
 
 A new Flutter project.
 
-## Getting Started
+Home UI
+![Screenshot (222)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/0dd97574-afff-438b-b095-8e8dc1b20854)
 
-This project is a starting point for a Flutter application.
+UI After State Management 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot (224)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/528db8ab-5834-467b-87b1-50ac8064f855)
