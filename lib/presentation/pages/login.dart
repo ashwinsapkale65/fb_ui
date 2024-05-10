@@ -1,15 +1,13 @@
 import 'package:fb_demo/presentation/widgets/maincontainer.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-
-class home extends StatefulWidget {
-  const home({Key? key});
+class login extends StatefulWidget {
+  const login({Key? key});
 
   @override
-  State<home> createState() => _HomeState();
+  State<login> createState() => _HomeState();
 }
 
-class _HomeState extends State<home> {
+class _HomeState extends State<login> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(

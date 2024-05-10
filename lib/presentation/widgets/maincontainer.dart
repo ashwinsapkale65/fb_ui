@@ -1,3 +1,4 @@
+import 'package:fb_demo/presentation/pages/signup.dart';
 import 'package:flutter/material.dart';
 
 class maincontainer extends StatefulWidget {
@@ -132,7 +133,10 @@ class _maincontainerState extends State<maincontainer> {
                       style: TextStyle(color: Color.fromRGBO(8, 102, 255, 1)))),
               SizedBox(width: 10),
               InkWell(
-                  onTap: () {},
+                  onTap: () {
+
+                    Navigator.push(context, MaterialPageRoute(builder: (context) => signup()));
+                  },
                   child: Text("Sign up for Facebook",
                       style: TextStyle(color: Color.fromRGBO(8, 102, 255, 1)))),
             ],
