@@ -1,17 +1,22 @@
 # fb_demo
+Product List task 2
 
-A new Flutter project.
-
-Home UI
-![Screenshot (222)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/0dd97574-afff-438b-b095-8e8dc1b20854)
-
-UI After State Management 
+Product List
+![Screenshot (225)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/93ab5eae-94f9-43b8-9b59-03e420faec3b)
 
 
-![Screenshot (224)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/528db8ab-5834-467b-87b1-50ac8064f855)
+Product info
+
+![Screenshot (226)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/d7e6dab4-9804-40fc-9460-b9704c918bcf)
+
+
 
 
 Video Demonstration
 
-https://github.com/ashwinsapkale65/fb_ui/assets/107023935/b49080c9-ab45-494c-b867-53cae877438c
+
+
+https://github.com/ashwinsapkale65/fb_ui/assets/107023935/b21ae7c2-ecf0-4395-97b9-3692a638a91f
+
+
 
