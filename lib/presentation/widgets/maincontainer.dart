@@ -1,4 +1,5 @@
-import 'package:fb_demo/presentation/pages/signup.dart';
+import 'package:fb_demo/presentation/pages/item_list.dart';
+import 'package:fb_demo/presentation/pages/signup_page.dart';
 import 'package:flutter/material.dart';
 
 class maincontainer extends StatefulWidget {
@@ -113,7 +114,11 @@ class _maincontainerState extends State<maincontainer> {
                     ),
                   ),
                 ),
-                onPressed: () {},
+                onPressed: () {
+                  if(email.isNotEmpty && password.isNotEmpty){
+                    Navigator.pushReplacement(context, MaterialPageRoute(builder: (context) => Productlist()));
+                  }
+                },
                 child: const Text("Log in",
                     style: TextStyle(
                         color: Colors.white,

@@ -1,6 +1,8 @@
-import 'package:fb_demo/presentation/pages/login.dart';
-import 'package:fb_demo/presentation/pages/signup.dart';
+
+import 'package:fb_demo/presentation/pages/login_page.dart';
+import 'package:fb_demo/presentation/provider/items_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 void main() {
   runApp(const MyApp());
@@ -9,10 +11,11 @@ void main() {
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
-  // This widget is the root of your application.
+
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return ChangeNotifierProvider(create: (_)=>ProductProvider(),child: 
+    MaterialApp(
       title: 'Flutter Demo',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
@@ -20,7 +23,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: const login(),
-    );
+      home:   login(),
+    ));
   }
 }
