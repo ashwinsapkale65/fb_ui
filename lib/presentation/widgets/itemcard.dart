@@ -1,16 +1,19 @@
+
 import 'package:fb_demo/models/ItemModel.dart';
 import 'package:fb_demo/presentation/pages/detail_item.dart';
+import 'package:fb_demo/presentation/provider/cart_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
-class itemcard extends StatefulWidget {
+class ItemCard extends StatefulWidget {
   final Product product;
-  const itemcard({super.key, required this.product});
+  const ItemCard({super.key, required this.product});
 
   @override
-  State<itemcard> createState() => _itemcardState();
+  State<ItemCard> createState() => _ItemCardState();
 }
 
-class _itemcardState extends State<itemcard> {
+class _ItemCardState extends State<ItemCard> {
   @override
   Widget build(BuildContext context) {
     return ListTile(
@@ -39,7 +42,18 @@ class _itemcardState extends State<itemcard> {
           ),
         );
       },
-      trailing: Icon(Icons.arrow_forward),
+      trailing: Row(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          IconButton(
+            icon: const Icon(Icons.add_shopping_cart),
+            onPressed: () {
+              Provider.of<CartProvider>(context, listen: false).addToCart(widget.product);
+            },
+          ),
+          Icon(Icons.arrow_forward),
+        ],
+      ),
     );
   }
 }
