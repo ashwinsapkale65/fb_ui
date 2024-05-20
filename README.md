@@ -2,16 +2,17 @@
 
 A new Flutter project.
 
-Home UI
-![Screenshot (222)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/0dd97574-afff-438b-b095-8e8dc1b20854)
+List of items
 
-UI After State Management 
+![Screenshot (232)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/c9611a6d-6d1e-4ac9-aa2e-62918d08bd43)
 
 
-![Screenshot (224)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/528db8ab-5834-467b-87b1-50ac8064f855)
+Cart page
+
+![Screenshot (233)](https://github.com/ashwinsapkale65/fb_ui/assets/107023935/f4060f05-0403-41b8-b8e1-087852054903)
 
 
 Video Demonstration
 
-https://github.com/ashwinsapkale65/fb_ui/assets/107023935/b49080c9-ab45-494c-b867-53cae877438c
+https://github.com/ashwinsapkale65/fb_ui/assets/107023935/25eb969c-2332-41cb-9bd5-a5c33a5f428f
 
